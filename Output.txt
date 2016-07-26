@@ -1,0 +1,49 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+void main()
+ {
+vector<int> v;
+a = 1 ;
+b = 1 ;
+c = 1 ;
+ if (a > 0)
+alt = 1 ;
+ else {
+v.clear();
+int temp = alt_1;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+alt_1 =  - 1;
+v.push_back(alt_1);
+alt_1=temp;
+sort(v.begin(),v.end());
+int count = 0;
+int max = 0;
+int element;
+for(int i = 0 ; i < v.size() ; ){
+	count = count(v.begin(),v.end(),v[i]);
+	if(count > max){
+		max = count;
+		element = v[i];
+		}
+	i = i + count;
+}
+alt_1=element;
+}
+ 
+}
